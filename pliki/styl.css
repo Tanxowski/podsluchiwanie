@@ -1,3 +1,4 @@
 body {
-background-image: url"(zdjecia/)";
+background-image: url("zdjecia/Avatar.png");
+  background-repeat: repeat;
 }
