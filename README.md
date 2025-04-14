@@ -1,7 +1,1 @@
-<header>
-# Podsluchiwanie
-</header>
-Wireshark Wireshark Wireshark Wireshark Wireshark Wireshark   
-Wireshark Wireshark Wireshark Wireshark Wireshark Wireshark   
-Wireshark Wireshark Wireshark Wireshark Wireshark Wireshark   
-Wireshark Wireshark Wireshark   
+# Tutaj robimy schemat html, css i foldery z plikami
