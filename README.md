@@ -1,7 +1,4 @@
 
 # Podsluchiwanie
   
-Wireshark Wireshark Wireshark Wireshark Wireshark Wireshark   
-Wireshark Wireshark Wireshark Wireshark Wireshark Wireshark   
-Wireshark Wireshark Wireshark Wireshark Wireshark Wireshark   
-Wireshark Wireshark Wireshark   
+Ta strona bedzie pokazywana na lekcji.
