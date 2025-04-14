@@ -1,6 +1,15 @@
 body {
-  font-color: white;
-background-image: url("zdjecia/Avatar.png");
+  color: white;
+  background-image: url("zdjecia/Avatar.png");
   background-repeat: repeat;
+  margin: 10px;
+}
+
+h1 {
+  color: white;
+  margin-left: 50%;
+  margin-top: 50%;
+  border: white solid 3px;
+  padding: 10px;
   margin: 10px;
 }
