@@ -1,15 +1,37 @@
-body {
-  color: white;
-  background-image: url("zdjecia/Avatar.png");
+ body {
+  background-image: url("zdjecia/tlo.png");
+  background-size: 1920px;
   background-repeat: repeat;
-  margin: 10px;
+  overflow-x:hidden;
+  margin: 0px;
+  padding: 0px;
 }
 
-h1 {
-  color: white;
-  margin-left: 50%;
-  margin-top: 50%;
-  border: white solid 3px;
-  padding: 10px;
-  margin: 10px;
+#pudlo {
+	width: 80%;
+	margin: auto;
+	margin-top: 10px;
+	display: block;
+	background-color: black;
+}
+
+#banner {
+	color: white;
+	text-shadow: 1px 1px 0 #000;
+	font-size: 80px;
+	background-image: linear-gradient(silver, gray);
+	border: 2px inset black;
+	border-bottom: 1px solid gray;
+}
+
+#lewy_panel {
+	
+}
+
+#prawy_panel {
+	
+}
+
+#stopka {
+	
 }
