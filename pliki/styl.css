@@ -25,13 +25,16 @@
 }
 
 #lewy_panel {
-	
+	min-height: 500px;
+	width: 20%;
 }
 
 #prawy_panel {
-	
+	min-height: 500px;
+	width: 60%;
 }
 
 #stopka {
-	
+	height: 75px;
+	width: 80%;
 }
