@@ -8,11 +8,12 @@
 }
 
 #pudlo {
+	color: white;
 	width: 80%;
 	margin: auto;
 	margin-top: 10px;
 	display: block;
-	background-color: black;
+	background-image: linear-gradient(black, #28231D);
 }
 
 #banner {
