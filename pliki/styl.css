@@ -1,41 +1,61 @@
  body {
-  background-image: url("zdjecia/tlo.png");
+  background-image: url("zdjecia/tlo.jpg");
   background-size: 1920px;
   background-repeat: repeat;
-  overflow-x:hidden;
+  overflow-x: hidden;
   margin: 0px;
   padding: 0px;
 }
+
+
+a {
+	color: white;
+	text-decoration: none;
+	background-color: rgb(192, 32, 32);
+	display: inline-block;
+	position: relative;
+	border: 2px solid black;
+}
+a:hover {
+	text-decoration: none;
+	background-color: rgb(112, 4, 4);
+}
+a:active {
+	text-decoration: none;
+	background-color: rgb(59, 2, 2);
+}
+
+
+ul {
+	list-style-type: none;
+}
+
 
 #pudlo {
 	color: white;
 	width: 80%;
 	margin: auto;
-	margin-top: 10px;
+	margin-top: 0;
 	display: block;
-	background-image: linear-gradient(black, #28231D);
 }
-
 #banner {
 	color: white;
 	text-shadow: 1px 1px 0 #000;
 	font-size: 80px;
 	background-image: linear-gradient(silver, gray);
-	border: 2px inset black;
-	border-bottom: 1px solid gray;
+	border: 2px dashed black;
 }
-
-#lewy_panel {
-	min-height: 500px;
-	width: 20%;
+#zakladki {
+	background-color: rgb(153, 153, 209);
+	height: 100px;
 }
-
-#prawy_panel {
-	min-height: 500px;
-	width: 60%;
+#pole {
+	background-color: rgb(45, 45, 97);
+	min-height: 200px;
 }
-
 #stopka {
-	height: 75px;
-	width: 80%;
+	background-color: rgb(12, 12, 54);
+	padding: 10px;
+	text-align: center;
+	display: block;
 }
