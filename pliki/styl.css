@@ -10,24 +10,21 @@
 
 a {
 	color: white;
+	list-style-type: none;
 	text-decoration: none;
-	background-color: rgb(192, 32, 32);
+	background-color: #FFF1D5;
 	display: inline-block;
 	position: relative;
+	padding: 4px;
 	border: 2px solid black;
 }
 a:hover {
 	text-decoration: none;
-	background-color: rgb(112, 4, 4);
+	background-color: #9EC6F3;
 }
 a:active {
 	text-decoration: none;
-	background-color: rgb(59, 2, 2);
-}
-
-
-ul {
-	list-style-type: none;
+	background-color: #9EC6F3;
 }
 
 
@@ -41,20 +38,24 @@ ul {
 #banner {
 	color: white;
 	text-shadow: 1px 1px 0 #000;
-	font-size: 80px;
-	background-image: linear-gradient(silver, gray);
+	padding-left: 10px;
+	background-color: #9FB3DF;
 	border: 2px dashed black;
+	position: sticky;
 }
 #zakladki {
-	background-color: rgb(153, 153, 209);
+	padding: 1px;
+	padding-left: 5px;
+	background-color: #9EC6F3;
 	height: 100px;
+	overflow: auto;
 }
 #pole {
-	background-color: rgb(45, 45, 97);
+	background-color: #FFF1D5;
 	min-height: 200px;
 }
 #stopka {
-	background-color: rgb(12, 12, 54);
+	background-color: #BDDDE4;
 	padding: 10px;
 	text-align: center;
 	display: block;
