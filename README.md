@@ -1,5 +1,3 @@
 # Strona: https://tanxowski.github.io/podsluchiwanie/  
----
-Github daje darmowy hosting.
-Limit: 500MB 
-
+## Strona internowona na temat podsłuchiwania sieci oraz programu Wireshark.
+Projekt wykonany przez: Kacper Breza i Łukasz Drozdowski 
