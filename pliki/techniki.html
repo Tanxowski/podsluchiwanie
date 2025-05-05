@@ -35,7 +35,52 @@
 			<button class="guzik"><a href="podsumowanie.html">Podsumowanie</a></button>
   		</div>
   		<div id="pole">
+		<h2>Techniki wykorzystywane do podsłuchiwania sieci:</h2>
+			<br>
+		<p><h4>ARP spoofing:</h4>znane również jako ARP poisoning (czyli zatruwanie ARP), to atak typu Man in the Middle (MitM, atakujący pośredniczy w komunikacji pomiędzy dwiema stronami), który pozwala atakującemu przechwycić 
+		komunikację pomiędzy urządzeniami w sieci lokalnej. W ramach ataku haker wysyła fałszywe odpowiedzi ARP, w których przypisuje swój adres MAC do adresów IP 
+		innych urządzeń w sieci. Dzięki temu urządzenia zaczynają wymieniać dane z atakującym, który pośredniczy w komunikacji, zamiast komunikować się bezpośrednio.
+		Grozi to przechwyceniem przez atakujących danych poufnych np. haseł.
+		</p>
+		<br>
+		<p>	
+		<h4>Sniffing:</h4>przechwytywanie i analiza ruchu sieciowego może być przydatna do celów diagnostycznych, lecz także jest wykorzystywana do przechwytywania poufnych informacji.
+		</p>
+		<br>
+		<p><h4>Sniffing pasywny:</h4>
+		Osoba posługująca się tym rodzajem sniffingu nie musi ingerować w transmisję danych
+		by uzyskać do nich dostęp. Używa w tym celu dostępnę narzędzia do podsłuchiwania np. Wireshark. Pasywny sniffing jest najbardziej skuteczny
+		w przypadku sieci, które są ze sobą połączone za pomocą koncentratorów. 
+		Te są jednak stopniowo wycofywane i zastępowane switchami, 
+		dlatego metoda staje się coraz mniej opłacalna.
+		</p>
+		<br>
+		<p><h4>Sniffing aktywny:</h4>Polega na „bombardowaniu” pamięci asocjacyjnej switcha (CAM). 
+		Pamięć asocjacyjna odpowiada za przechowywanie adresów MAC 
+		urządzeń podłączonych do sieci oraz powiązanych z nimi numerów portów i 
+		jest niezbędna do tego, by kierować przechodzące przez switch pakiety do 
+		odpowiednich odbiorców. Gdy switch jest atakowany, przechodzące przez niego 
+		dane mogą zostać skierowane do innych portów, które są kontrolowane przez hakera. 
+		Informacje są wtedy przechwytywane przez osobę trzecią.
 
+			
+		</p>
+
+		<br>
+		<p><h4>MAC Flooding:</h4>Jest to atak typu Denial of Service (DoS), którego celem jest zaburzenie
+		poprawnej pracy urządzeń. Opiera się on na wykorzystaniu ograniczonej 
+		wielkości tablicy w pamięci CAM przełącznika. Po zapełnieniu
+		jej rozmiaru urządzenie zachowuje się jak koncentrator, 
+		a tym samym pakiety zostają przekierowywane na wszystkie porty, co ułatwia przechwytywanie ruchu.
+
+			
+		</p>
+
+		<br>
+		<p><h4>DNS sniffing:</h4>Przechwytywanie zapytań DNS w celu mapowania aktywności sieciowej użytkowników.
+			
+		</p>
+			
 
 			
   		</div>
