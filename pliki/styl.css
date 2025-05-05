@@ -19,6 +19,9 @@
 h2 {
 	text-align: center;
 }
+h5 {
+	text-align: center;
+}
 a {
 	text-decoration: none;
 }
@@ -36,7 +39,9 @@ button:hover {
 button:active {
 	background-color: #00ADB5;
 }
-
+div.zdjecia {
+	overflow: auto;
+}
 
 #pudlo {
 	color: white;
@@ -68,6 +73,7 @@ button:active {
 	height: auto;
 	border-style: groove;
 	padding: 5px;
+	overflow: auto;
 
 	font-family: "Open Sans", sans-serif;
  	font-optical-sizing: auto;
