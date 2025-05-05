@@ -1,5 +1,5 @@
-# To główna strona, która ma oficjalna i najlepsza wersje dostepna.  
+# Strona: https://tanxowski.github.io/podsluchiwanie/  
 ---
-Tutaj też jest zrobione github-pages czyli rzecz do darmowego hostowania.
+Github daje darmowy hosting.
 Limit: 500MB 
 
