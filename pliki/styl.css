@@ -37,10 +37,15 @@ button:hover {
 	background-color: #00ADB5;
 }
 button:active {
-	background-color: #00ADB5;
+	background-color: #0d2425;
 }
 div.zdjecia {
 	overflow: auto;
+}
+.zdj {
+	display: block;
+ 	margin: auto;
+  	width: 50%;
 }
 
 #pudlo {
@@ -59,6 +64,7 @@ div.zdjecia {
 	position: sticky;
 }
 #zakladki {
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	padding: 1px;
 	padding-left: 5px;
 	padding-bottom: 10px;
